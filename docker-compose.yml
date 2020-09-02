@@ -15,6 +15,7 @@ services:
             - api
         networks:
             - webappnetwork
+        tty: true
     api:
         build:
             context: ./api/
